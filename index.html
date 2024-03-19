@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto bootstrap</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./novayork.jpg" class="d-block w-100" alt="Imagem de Nova York">
+            </div>
+            <div class="carousel-item">
+                <img src="./riodejaneiro.jpg" class="d-block w-100" alt="Imagem do Rio de Janeiro">
+            </div>
+            <div class="carousel-item">
+                <img src="./tokyo.jpg" class="d-block w-100" alt="Imagem de Tokyo">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="./tokyocard.jpg" alt="Imagem de Tokyo">
+                    <div class="card-body">
+                        <h5>Tokyo: O coração do Japão</h5>
+                        <p>Uma cidade vibrante que mescla tradição e modernidade, com templos antigos, tecnologia avançada, culinária diversificada e uma cultura única. Lugar ideal para quem gosta de algo diferente.</p>
+                        <a href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="./novayorkcard.jpg" alt="Imagem de Nova York">
+                    <div class="card-body">
+                        <h5>Nova york: A cidade que não dorme</h5>
+                        <p>Uma metrópole cosmopolita repleta de arranha-céus icônicos, teatros da Broadway, museus de renome mundial e uma cena gastronômica diversificada.</p>
+                        <a href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="./riocard.jpg" alt="Imagem do Rio de Janeiro">
+                    <div class="card-body">
+                        <h5>Rio de janeiro: A cidade maravilhosa</h5>
+                        <p>Uma cidade deslumbrante, conhecida por suas praias famosas, paisagens espetaculares, ritmo animado do samba e carnaval extravagante.</p>
+                        <a href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">Desenvolvido por Gabriel Silva</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
